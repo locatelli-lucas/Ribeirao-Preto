@@ -44,7 +44,10 @@ public class Tasks {
 
         int n = sc.nextInt();
         sc.nextLine();
-        System.out.println(fibonnacci(n));
+
+        if(fibonnacci(n)) System.out.println("O número está na sequência!");
+        else System.out.println("O número não está na sequência!");
+
 
         String str = sc.nextLine();
         System.out.println("A letra 'a' apareceu " + checkString(str) + " vezes");
